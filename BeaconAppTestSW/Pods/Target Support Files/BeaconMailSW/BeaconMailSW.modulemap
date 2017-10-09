@@ -1,0 +1,6 @@
+framework module BeaconMailSW {
+  umbrella header "BeaconMailSW-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,74 @@
+
+"app_name"          = "BeaconMail" ;
+"menu_header"       = "メニュー" ;
+"menu_favorite"     = "お気に入り" ;
+"menu_edit"         = "編集" ;
+"menu_about"        = "このアプリについて" ;
+"menu_information"  = "インフォメーション" ;
+"menu_complete"     = "完了" ;
+"menu_debug_mode"   = "デバッグモード" ;
+"menu_status"       = "ステータス" ;
+
+"dialog_message_processing"                 = "プロセス中…" ;
+"dialog_message_you_want_to_delete_account" = "提供元を削除しますか？" ;
+"dialog_message_deleting_account"           = "配信元削除中…" ;
+
+"alert_debug_mode" = "デバッグモードを有効にしますか?" ;
+
+"mail_add_favorite"         = "メッセージをお気に入りに追加しますか?" ;
+"mail_delete"               = "このメッセージを削除しますか?" ;
+"mail_add_favorite_toast"   = "メッセージをお気に入りに登録しました。" ;
+"mail_delete_mail_toast"    = "メッセージを削除しました。" ;
+
+"message_init_setting_title"           = "初期設定" ;
+"message_grant_location"               = "バックグランドでBeaconを検知するにはアプリ内のロケーションへのアクセスを許可します。" ;
+"message_init_setting"                 = "初期設定が取得できていません。通信状態のよいところで初期設定を取得してください。" ;
+"message_communication_error_occurred" = "通信エラーが発生しました。電波状態のよい場所で再度実行してください。" ;
+"message_grant_location_denied"        = "ロケーションアクセスが許可されてないため、バックグランドでBeaconの検知が出来なくなります。" ;
+
+"button_cancel" = "いいえ" ;
+"button_ok"     = "はい" ;
+"button_retry"  = "リトライ" ;
+
+"dialog_save_configuration_message" = "設定を保存します。よろしいですか?" ;
+"favorite_delete_message"           = "選択したメッセージを削除しますか?" ;
+
+"mail_box_add_favorite_toast"  = "%d件のメッセージをお気に入りへ登録しました。" ;
+"mail_box_delete_toast"        = "%d件のメッセージを削除しました。";
+
+"toolbar_favorite_box" = "お気に入り" ;
+"toolbar_about"        = "このアプリについて" ;
+"toolbar_beaconClient" = "メール受信" ;
+"toolbar_setting"      = "環境設定" ;
+"toolbar_splash_mail"  = "Loading GFMailResponse" ;
+"toolbar_web"          = "Web" ;
+"toolbar_favorite"     = "メッセージ" ;
+"toolbar_term_conditions" = "利用規約" ;
+"toolbar_privacy_policy" = "プライバシーポリシー" ;
+
+"connect_timeout" = "接続タイムアウト" ;
+"network_error"   = "ネットワークエラー" ;
+"server_error"    = "サーバーエラー" ;
+
+"about_privacy_policy" = "プライバシーポリシー" ;
+
+"server_error_try_connect" = "サーバーに接続エラーが発生しました。もう一度お試しください" ;
+
+"about_detail" = "本アプリはiBeacon端末及び、iBeacon信号と連動して利用可能で、登録された Webサイトやメッセージを表示する機能を搭載しています。情報配信者は、お手元に対応beacon機器をご用意下さい。" ;
+
+"terms_of_service" = "サービス利用規約" ;
+"privacy_policy"   = "プライバシーポリシー" ;
+"receive_background" = "バックグラウンド受信する" ;
+
+"mail_cancel"   = "キャンセル" ;
+"mail_no_mails" = "メッセージなし" ;
+"mail_has_deleted" = "削除しました" ;
+
+"notify_total_message" = "%d件のメッセージを受信しました。";
+
+"format_security_key" =  "パスワードを入力してください";
+
+"message_request_geofence_xml_error" = "サーバー情報の取得が出来ませんでした。";
+
+
+

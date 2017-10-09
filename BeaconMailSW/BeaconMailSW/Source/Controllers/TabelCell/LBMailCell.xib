@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="LBMailCell" rowHeight="81" id="DZA-2m-wTI" customClass="LBMailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DZA-2m-wTI" id="Bkg-9S-DOL">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="82.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015/06/20 15:20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRV-cA-Azy">
+                        <rect key="frame" x="10" y="5" width="250" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="kkS-kt-p3W"/>
+                            <constraint firstAttribute="width" constant="250" id="uly-iO-nfW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rrv-Xe-5f2">
+                        <rect key="frame" x="272" y="8" width="12" height="12"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="6Fw-uw-adi"/>
+                            <constraint firstAttribute="width" constant="12" id="6b9-If-qPg"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQ3-68-mhr">
+                        <rect key="frame" x="10" y="25" width="269" height="25"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Hi2-b7-0Be"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ただいまAlphaでは夏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzj-yg-Gpv">
+                        <rect key="frame" x="10" y="50" width="269" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="xLS-RF-yAX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EQ3-68-mhr" firstAttribute="top" secondItem="hRV-cA-Azy" secondAttribute="bottom" id="7A0-Dj-cKq"/>
+                    <constraint firstItem="hRV-cA-Azy" firstAttribute="top" secondItem="Bkg-9S-DOL" secondAttribute="top" constant="5" id="C9U-bI-NIb"/>
+                    <constraint firstItem="hRV-cA-Azy" firstAttribute="leading" secondItem="Bkg-9S-DOL" secondAttribute="leading" constant="10" id="IsH-hV-i0E"/>
+                    <constraint firstItem="gzj-yg-Gpv" firstAttribute="leading" secondItem="Bkg-9S-DOL" secondAttribute="leading" constant="10" id="Pkk-O5-xdO"/>
+                    <constraint firstAttribute="trailing" secondItem="gzj-yg-Gpv" secondAttribute="trailing" constant="8" id="Vkb-Na-ksv"/>
+                    <constraint firstAttribute="trailing" secondItem="EQ3-68-mhr" secondAttribute="trailing" constant="8" id="c6O-7l-lt4"/>
+                    <constraint firstItem="rrv-Xe-5f2" firstAttribute="top" secondItem="Bkg-9S-DOL" secondAttribute="top" constant="8" id="fzp-Vq-ccU"/>
+                    <constraint firstAttribute="trailing" secondItem="rrv-Xe-5f2" secondAttribute="trailing" constant="3" id="h6B-Nf-vlJ"/>
+                    <constraint firstItem="gzj-yg-Gpv" firstAttribute="top" secondItem="EQ3-68-mhr" secondAttribute="bottom" id="hD8-fQ-PlH"/>
+                    <constraint firstItem="EQ3-68-mhr" firstAttribute="leading" secondItem="Bkg-9S-DOL" secondAttribute="leading" constant="10" id="jEV-fk-zty"/>
+                    <constraint firstItem="rrv-Xe-5f2" firstAttribute="top" secondItem="Bkg-9S-DOL" secondAttribute="topMargin" id="lVT-uG-LjP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="rrv-Xe-5f2" secondAttribute="trailing" constant="-8" id="xf0-ZR-dmg"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="lVT-uG-LjP"/>
+                        <exclude reference="xf0-ZR-dmg"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="gzj-yg-Gpv" id="zuI-0B-pil"/>
+                <outlet property="subjectLabel" destination="EQ3-68-mhr" id="pCP-3g-TOI"/>
+                <outlet property="updateDateLabel" destination="hRV-cA-Azy" id="JHr-T6-TSh"/>
+                <outlet property="viewNumberUnreadMessage" destination="rrv-Xe-5f2" id="bGr-ap-7sQ"/>
+            </connections>
+            <point key="canvasLocation" x="502" y="411.5"/>
+        </tableViewCell>
+    </objects>
+</document>

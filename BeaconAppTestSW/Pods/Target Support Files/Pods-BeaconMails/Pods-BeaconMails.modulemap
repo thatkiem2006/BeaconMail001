@@ -1,0 +1,6 @@
+framework module Pods_BeaconMails {
+  umbrella header "Pods-BeaconMails-umbrella.h"
+
+  export *
+  module * { export * }
+}

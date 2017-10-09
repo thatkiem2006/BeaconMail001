@@ -1,0 +1,74 @@
+
+"app_name"          = "BeaconMail" ;
+"menu_header"       = "Menu" ;
+"menu_favorite"     = "Favorite" ;
+"menu_edit"         = "Edit" ;
+"menu_about"        = "About this App" ;
+"menu_information"  = "Information" ;
+"menu_complete"     = "Complete" ;
+"menu_debug_mode"   = "Debug mode" ;
+"menu_status"       = "Status" ;
+
+"dialog_message_processing"                 = "Processing…" ;
+"dialog_message_you_want_to_delete_account" = "Removing this account will delete all if its email from the phone!" ;
+"dialog_message_deleting_account"            = "Removing account…" ;
+
+"alert_debug_mode" = "Do you want to enable DebugMode?" ;
+
+"mail_add_favorite"         = "Would you like to add this message to favorite?" ;
+"mail_delete"               = "Delete this message?" ;
+"mail_add_favorite_toast"   = "Favorite added." ;
+"mail_delete_mail_toast"    = "Message deleted." ;
+
+"message_init_setting_title"           = "Setting" ;
+"message_grant_location"               = "Please grant location access so this app can detect beacons in the background." ;
+"message_init_setting"                 = "Update the latest version from server?" ;
+"message_communication_error_occurred" = "There is a problem with internet connection. Please try again!" ;
+"message_grant_location_denied"        = "Since location access has not been enabled, this app will not be able to discover beacons when in the background." ;
+
+"button_cancel" = "Cancel" ;
+"button_ok"     = "Ok" ;
+"button_retry"  = "Retry" ;
+
+"dialog_save_configuration_message" = "Do you want to save setting?" ;
+"favorite_delete_message" = "Delete this message?" ;
+"mail_box_add_favorite_toast"  = "%d added" ;
+"mail_box_delete_toast"        = "%d deleted.";
+
+"toolbar_favorite_box" = "Favorite" ;
+"toolbar_about"        = "About this App" ;
+"toolbar_beaconClient" = "Receive mail" ;
+"toolbar_setting"      = "Environmental setting" ;
+"toolbar_splash_mail"  = "Loading GFMailResponse" ;
+"toolbar_web"          = "Web" ;
+"toolbar_favorite"     = "Message" ;
+"toolbar_term_conditions" = "Terms of service" ;
+"toolbar_privacy_policy" = "privacy policy" ;
+
+"connect_timeout" = "Connect timeout" ;
+"network_error"   = "Network error" ;
+"server_error"    = "Server error" ;
+
+"about_privacy_policy" = "privacy policy" ;
+
+"server_error_try_connect" = "Connect to server error, please try again" ;
+
+"about_detail" = "This application is available in conjunction with the iBeacon device and the iBeacon signal, and has a function to display registered Web sites and messages. Information distributors must have beacon equipment handy." ;
+
+"terms_of_service" = "Terms of Service" ;
+"privacy_policy"   = "Privacy policy" ;
+"receive_background" = "Receive background" ;
+
+"mail_cancel" = "Cancel" ;
+"mail_no_mails" = "No Message" ;
+"mail_has_deleted" = "It has been deleted" ;
+
+"notify_total_message" = "%d new message(s)";
+
+"format_security_key" =  "Enter security key";
+
+"message_request_geofence_xml_error" = "Server information getting error";
+
+
+
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CellMessage" rowHeight="81" id="KGk-i7-Jjw" customClass="CellMessage" customModule="BeaconMailSW" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="287" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015/06/20 15:20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0j-Kc-CLR">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="250" id="44o-TV-tfs"/>
+                            <constraint firstAttribute="height" constant="20" id="Vos-Gp-w2A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0RR-6n-50c">
+                        <frame key="frameInset" minY="8" width="12" height="12" maxX="3"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="・サマーキャンペーンxxxxxxxxxxxxxxxxxx" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOR-De-NKT">
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Kvf-Cg-9Jw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ただいまAlphaでは夏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFj-PC-uoE">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="tjp-lj-aZr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SFj-PC-uoE" firstAttribute="top" secondItem="xOR-De-NKT" secondAttribute="bottom" id="0l6-nk-oVY"/>
+                    <constraint firstItem="SFj-PC-uoE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="X33-XQ-HeK"/>
+                    <constraint firstItem="xOR-De-NKT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="iHK-Bo-VBl"/>
+                    <constraint firstAttribute="trailing" secondItem="SFj-PC-uoE" secondAttribute="trailing" constant="8" id="lws-Df-5N6"/>
+                    <constraint firstItem="k0j-Kc-CLR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="oLX-to-kNc"/>
+                    <constraint firstAttribute="trailing" secondItem="xOR-De-NKT" secondAttribute="trailing" constant="8" id="qKh-au-jHc"/>
+                    <constraint firstItem="xOR-De-NKT" firstAttribute="top" secondItem="k0j-Kc-CLR" secondAttribute="bottom" id="rDy-eC-eoq"/>
+                    <constraint firstItem="k0j-Kc-CLR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="uM3-PQ-NcI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labelDescription" destination="SFj-PC-uoE" id="1FD-Gs-ueq"/>
+                <outlet property="labelSubject" destination="xOR-De-NKT" id="g8U-r7-R20"/>
+                <outlet property="labelUpdateDate" destination="k0j-Kc-CLR" id="P4V-OQ-KP3"/>
+                <outlet property="viewReadMessage" destination="0RR-6n-50c" id="UUl-nH-Ako"/>
+            </connections>
+            <point key="canvasLocation" x="502" y="411.5"/>
+        </tableViewCell>
+    </objects>
+</document>

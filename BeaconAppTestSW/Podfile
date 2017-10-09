@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BeaconMails' do
+
+  use_frameworks!
+
+  pod 'BeaconMailSW', :path => '../BeaconMailSW'
+    
+  pod 'Fabric'
+  pod 'Crashlytics'
+
+end
+
+#pre_install do |installer|
+#    def installer.verify_no_static_framework_transitive_dependencies; end
+#end

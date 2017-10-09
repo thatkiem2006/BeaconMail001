@@ -1,0 +1,68 @@
+Terms of service
+
+This Terms of Service ("Terms and Conditions") is a service (hereinafter referred to as "this Agreement") provided by Idio Co., Ltd ("Company") on this application / website It is a thing that defines the use conditions of. Users will be required to use this service in accordance with these Terms of Use.
+
+Article 1 (Application)
+This agreement shall apply to all relationships related to the use of this service between the user and the Company.
+
+Article 2 (Use registration)
+The user wishes to use (download) according to the method specified by the Company, and by us approving it, the use registration will be completed.
+We may not approve the application for use registration if we determine that the applicant for use registration has the following reasons and we do not under any obligation to disclose the reason.
+(1) When notifying of false matters at the time of applying for use registration
+(2) If it is an application from a person who has violated this agreement
+(3) Others, when we judge that usage registration is not appropriate
+
+Article 3 (Management of User ID)
+The user shall manage the user ID of this service at its own risk.
+In any case, the user can not transfer or lend the user ID to a third party. If the user ID is logged in consistent with the registered information, we regard it as usage by the user who registered the user ID.
+
+Article 4 (usage fee and payment method)
+As for the paid service incidental to this service, the user separately determines the fee-based service to be used for payment, and pay the usage fee to be displayed on this website or in the application by the method specified by the Company.
+In the event that the user has delayed payment of the usage fee, the user shall pay the delayed damages at a rate of 14.6% per year.
+
+Article 5 (Prohibited matter)
+In using this service, you must not do the following acts.
+(1) Acts that violate laws or public order and morals
+(2) Acts related to criminal acts
+(3) Acts of destroying, obstructing or analyzing the functions of our server, network or software
+(4) Acts that may interfere with the operation of our services
+(5) Acts of collecting or accumulating personal information etc. concerning other users
+(6) act of impersonating other users
+(7) Acts of providing benefits directly or indirectly to antisocial forces in connection with our services
+(8) Other acts that we deem inappropriate
+
+Article 6 (suspension of provision of this service etc.)
+The Company shall be able to suspend or suspend the provision of all or part of this service without notifying the user in advance if it determines that there is any of the following reasons.
+(1) When performing maintenance, inspection, or updating of the computer system related to this service
+(2) In the event that it becomes difficult to provide this service due to force majeure such as earthquake, lightning strike, fire, blackout or natural disaster
+(3) When the computer, communication line, etc. cease due to accident
+(4) In the event that we determine that it is difficult to provide this service
+We shall not be held responsible for any reason or disadvantage for any disadvantage or damage suffered by the user or a third party due to suspension or interruption of the provision of this service.
+
+Article 7 (Restrictions on use and deletion of registration)
+In the following cases, the Company shall be able to restrict the use of all or part of this service to the user without prior notice, or to cancel the registration as a user.
+(1) In the event of violating any provision of these Terms
+(2) When it is found that there is a false fact in the registration matter
+(3) In the event that we judge that the use of this service is not appropriate
+We will not be held liable for any damages caused to the user by the actions our company did under this section.
+Article 8 (Disclaimer)
+The Company's obligations to fulfill its obligations shall be exempted from liability if it is not based on our intention or gross negligence.
+We are liable for compensation only within the range of damage that can normally occur even in the case of responsibility for some reason and within the range of payment amount (equivalent to one month in case of continuous service) for paid services Shall be assumed.
+We are not responsible for any transactions, communications or disputes arising between you and other users or third parties regarding this service.
+
+Article 9 (Change of Service Contents, etc.)
+The Company shall be able to change the contents of this service or cancel the provision of this service without notifying the user and will not bear any responsibility for damage caused to the user by this.
+
+Article 10 (Change of Terms of Service)
+The Company shall be able to change this agreement at any time without notifying the user, if judged necessary.
+
+Article 11 (Notification or contact)
+Notification or communication between the user and the Company shall be made according to the method specified by the Company.
+
+Article 12 (Prohibition of Transfer of Rights and Obligations)
+You may not transfer the status under the contract or the rights or obligations under this Agreement to a third party without prior consent of the Company in writing or provide it as collateral.
+
+Article 13 (Governing Law and Jurisdiction)
+In interpreting these Terms, the Japanese law shall be the governing law.
+In the event of a dispute with respect to this Service, the court having jurisdiction over the headquarters / office location of the Company shall be subject to exclusive agreement.
+

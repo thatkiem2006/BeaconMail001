@@ -1,0 +1,63 @@
+Privacy Policy
+
+Idio Co., Ltd. (hereinafter referred to as "our company"), as to the handling of privacy information in the service provided on this application / website (hereinafter referred to as "the service"), the privacy policy (Hereinafter referred to as "this policy").
+
+Article 1 (Privacy Information)
+"Private information" in the privacy information means "personal information" referred to in the Personal Information Protection Law, information on surviving individuals, including the name, date of birth, address, phone number , Information that can identify a specific individual by contact information or other description.
+"History information and characteristic information" of privacy information means anything other than "personal information" specified above, and the service you used, the product you purchased, the history of the page or advertisement you saw, the user Refers to the searched keyword, the date and time of use, the method of use, the usage environment, postal code and gender, occupation, age, user's IP address, cookie information, location information, terminal identification information etc. .
+
+Article 2 (Collection method of privacy information)
+We may ask personal information such as name, date of birth, address, telephone number, e-mail address, bank account number, credit card number, driver's license number, etc. when the user makes a registration. In addition, transaction records including personal information of users between parties and parties, and information on settlement will be sent to our partners (including information providers, advertisers, ad delivery destinations, etc. , "Partner company"), etc. may be gathered from.
+Regarding the users, we have used services, software, products purchased, history of pages and advertisements you have browsed, search keywords searched, date and time of use, usage method, usage environment (if you use it through a mobile terminal The communication state of the user, various setting information at the time of use, etc.), history information such as IP address, cookie information, position information, terminal individual identification information and characteristic information, Collect when collecting or browsing pages.
+
+Article 3 (Purpose of collecting and using personal information)
+The purpose for which we collect and use personal information is as follows.
+(1) Register information such as name, address, contact information, payment method, etc., used services, purchased goods, purchased goods, etc., in order to allow users to browse and modify their registered information, And the purpose of displaying information on the price etc.
+(2) To use e-mail addresses to notify or contact users, to send items to users or to contact them as necessary, the purpose of using contact information such as name and address
+(3) In order to verify the identity of the user, use information such as name, birth date, address, telephone number, bank account number, credit card number, driver's license number, mail arrival result with delivery certificate the purpose
+(4) In order to request the user for the price, the item name and quantity purchased, the type and duration of the service used, the number of times, the charged amount, the name, the address, the bank account number, the credit card number etc. concerning payment Purpose of using information etc.
+(5) In order to make it easy for users to enter data, it is possible to display the information registered in the company on the input screen, or to display other services (partner also includes those to be transferred)
+(6) Usage by users who violate the terms of service of this service, such as delaying the payment of payment or causing damage to a third party, or users who intend to use the service for fraudulent / unfair purposes For the purpose of refusing the purpose, the purpose of using information for identifying an individual, such as usage form, name, address etc.
+(7) In order to respond to inquiries from users, information necessary for the Company to provide services to users, such as contents of inquiries and billing charges, the service use situation of users, Purpose of using contact information etc.
+(8) Objects attached to the above purpose of use
+
+Article 4 (Third party provision of personal information)
+Except for the following cases, we will not provide personal information to third parties without obtaining prior consent from users. However, except as permitted by the Personal Information Protection Act or other laws and regulations.
+(1) Based on laws and ordinances
+(2) When it is necessary for the protection of human life, body or property, and it is difficult to obtain the consent of the person himself / herself
+(3) When it is particularly necessary for the improvement of public health or the promotion of healthy fostering of children, and it is difficult to obtain consent of the person himself / herself
+(4) In cases where it is necessary for a national agency or a local public entity or a person receiving a consignment to cooperate in carrying out the affairs prescribed by laws and regulations, by obtaining the consent of the principal, performing the duties when there is a risk of interfering with
+(5) When notifying or publishing the following matters in advance
+Including provision to third parties for purposes of use
+Items of data provided to third parties
+Means or method for provision to a third party
+Stopping the provision of personal information to a third party in accordance with the request of the principal
+Notwithstanding the provisions of the preceding paragraph, the following cases shall not apply to third parties.
+(1) When we entrust all or part of the handling of personal information within the range necessary for achieving the purpose of use
+(2) Personal information is provided as a result of business succession due to merger or other reasons
+(3) When personal information is to be used jointly with a specific person, the fact that the personal information is used in conjunction with the specific person, the items of personal information to be used jointly, the scope of the persons to use in cooperation, When informing the person in advance about the purpose of use and the name or name of the person responsible for management of the personal information in advance or putting it in a state that the principal can easily know
+
+Article 5 (disclosure of personal information)
+When we are requested to disclose personal information from user, we will disclose it to user without delay. However, if it falls under any of the following, it may not disclose all or part of it, and if you decide not to disclose it, I will notify you so without delay. For the disclosure of personal information, a fee of 1,000 yen will be charged per case.
+(1) When there is a risk of harming the life, body, property or other rights and interests of the person himself or a third party
+(2) When there is a risk of significant hindrance to the proper implementation of our business
+(3) In case of violating other laws and regulations
+Notwithstanding the provisions of the preceding paragraph, we will not disclose in principle information other than personal information such as history information and characteristic information.
+
+Article 6 (Correction and deletion of personal information)
+If the user's personal information owned by the Company is incorrect information, the user can request correction of the personal information or deletion of the personal information by the procedures specified by the Company.
+If we decide that it is necessary to respond to the request by receiving a request from the user, we will correct or delete the personal information without delay and notify the user.
+
+Article 7 (using suspension of personal information, etc.)
+From the person himself, from the reason that personal information is handled beyond the range of purpose of use, or because it was acquired by improper means, we suspended or eliminate its use (hereinafter referred to as "use If you are asked to do so, etc.), we conduct necessary investigation without delay and stop using the personal information etc. based on the result and notify the person informed accordingly. Provided, however, that it is difficult to do so, such as when suspension of use of personal information, etc. is expensive, and in cases where it is possible to take alternative measures necessary to protect the rights and interests of the individual , We will take this alternative.
+
+Article 8 (Change in Privacy Policy)
+The contents of this policy can be changed without notifying the user.
+Unless otherwise specified by the Company, the posted privacy policy will take effect from the time it is posted on this website.
+Article 9 (inquiry window)
+For inquiries regarding this policy, please contact the following counter.
+
+Address: 2-2-10 Kotobukicho,  Takamatsu, Kagawa,  Takamatsu Kotobukicho Prime Building 4 F
+Company name: Idio Co., Ltd
+Department in charge: beaconmail Contact
+E-mail address: info@idio.info

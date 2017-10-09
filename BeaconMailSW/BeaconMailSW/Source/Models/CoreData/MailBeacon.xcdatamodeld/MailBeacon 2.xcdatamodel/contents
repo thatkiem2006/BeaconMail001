@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Beacon" representedClassName=".Beacon" syncable="YES">
+        <attribute name="beacon_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="create_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="image_banner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="new_mail_cnt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="new_mail_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="profile_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="protected" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="proximity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rssi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="update_date_newmail" optional="YES" attributeType="Transformable" valueTransformerName=".DateTransformer" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FavoriteMailBox" syncable="YES">
+        <attribute name="create_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="is_favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="is_read" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mail_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MailBox" syncable="YES">
+        <attribute name="create_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="is_favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="is_read" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="mail_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XML" syncable="YES">
+        <attribute name="content_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content_notification" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="create_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="image_banner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_loadMail" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mail_encryption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mail_idPrefix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mail_idSuffix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mail_passwd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mail_port" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mail_server" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profile_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proximity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfPasswd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfPasswd_far" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfPasswd_immediate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfPasswd_near" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfUserId_far" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfUserId_immediate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_elementIdOfUserId_near" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_passwd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_passwd_far" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_passwd_immediate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_passwd_near" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_proximity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_proximity_far" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_proximity_immediate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_proximity_near" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_url_far" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_url_immediate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_url_near" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_userId_far" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_userId_immediate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webAccess_userId_near" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Beacon" positionX="-479" positionY="801" width="128" height="268"/>
+        <element name="FavoriteMailBox" positionX="-423" positionY="1104" width="144" height="210"/>
+        <element name="MailBox" positionX="-288" positionY="801" width="128" height="210"/>
+        <element name="XML" positionX="-1044" positionY="1062" width="479" height="673"/>
+    </elements>
+</model>

@@ -1,0 +1,54 @@
+{
+  "name": "BeaconMailSW",
+  "version": "0.0.1",
+  "summary": "BeaconMailSW.",
+  "description": "BeaconMailSW",
+  "homepage": "http://google.com",
+  "license": "MIT",
+  "authors": {
+    "longdq": "longdq.adnetplus@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "BeaconMailSW",
+    "BeaconMailSW/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "BeaconMailSW/Exclude",
+  "resources": "BeaconMailSW/**/*.{png,jpeg,jpg,storyboard,xib,xcdatamodeld,xcassets,json,txt,strings}",
+  "frameworks": "CoreData",
+  "requires_arc": true,
+  "dependencies": {
+    "Toast": [
+      "~> 2.4"
+    ],
+    "SDWebImage": [
+      "~> 3.7.1"
+    ],
+    "AFNetworking": [
+      "~> 3.0.0"
+    ],
+    "Postal": [
+
+    ],
+    "TPKeyboardAvoiding": [
+      "~> 1.2.8"
+    ],
+    "SwiftyXMLParser": [
+
+    ],
+    "UIActivityIndicator-for-SDWebImage": [
+
+    ],
+    "Alamofire": [
+      "~> 4.0"
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.3.0)
+  - BeaconMailSW (0.0.1):
+    - AFNetworking (~> 3.0.0)
+    - Alamofire (~> 4.0)
+    - Postal
+    - SDWebImage (~> 3.7.1)
+    - SwiftyXMLParser
+    - Toast (~> 2.4)
+    - TPKeyboardAvoiding (~> 1.2.8)
+    - UIActivityIndicator-for-SDWebImage
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - Postal (0.4.1):
+    - Postal/Core (= 0.4.1)
+  - Postal/Core (0.4.1):
+    - Result (~> 3.1.0)
+  - Result (3.1.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SwiftyXMLParser (3.0.0)
+  - Toast (2.4)
+  - TPKeyboardAvoiding (1.2.11)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - BeaconMailSW (from `../BeaconMailSW`)
+  - Crashlytics
+  - Fabric
+
+EXTERNAL SOURCES:
+  BeaconMailSW:
+    :path: ../BeaconMailSW
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  BeaconMailSW: f45823a866302ad7f51d5e28b4af53cfe147d7cc
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Postal: 351cc078db1b8824d952826776904242e940688c
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SwiftyXMLParser: 8d2295fb4fbc6e2ff241e7c8d7717e159be35969
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+
+PODFILE CHECKSUM: 2a364d38d846b8cb038357a94ef0ee04c8830f20
+
+COCOAPODS: 1.2.0

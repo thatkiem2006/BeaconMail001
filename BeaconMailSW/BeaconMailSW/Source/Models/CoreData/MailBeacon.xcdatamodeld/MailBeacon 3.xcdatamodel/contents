@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16G29" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Beacon" representedClassName=".Beacon" syncable="YES">
+        <attribute name="beacon_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="create_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="protected" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="proximity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rssi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mailAccount" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MailAccount" inverseName="beacon" inverseEntity="MailAccount" syncable="YES"/>
+        <relationship name="xml_file" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XMLFileData" inverseName="beacon" inverseEntity="XMLFileData" syncable="YES"/>
+    </entity>
+    <entity name="Geofence" representedClassName=".Geofence" syncable="YES">
+        <attribute name="create_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="geofence_distance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="geofence_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geofence_lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geofence_lon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geofence_radius" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_enter_geo" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="notify_message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notify_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="xml_file_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mailAccount" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MailAccount" inverseName="geofence" inverseEntity="MailAccount" syncable="YES"/>
+        <relationship name="xml_file" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XMLFileData" inverseName="geofence" inverseEntity="XMLFileData" syncable="YES"/>
+    </entity>
+    <entity name="MailAccount" representedClassName=".MailAccount" syncable="YES">
+        <attribute name="encryption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasNewMail" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="idPrefix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idSuffix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passwd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="port" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="server" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topMailId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="beacon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Beacon" inverseName="mailAccount" inverseEntity="Beacon" syncable="YES"/>
+        <relationship name="geofence" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Geofence" inverseName="mailAccount" inverseEntity="Geofence" syncable="YES"/>
+        <relationship name="mailbox" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MailBox" inverseName="mailAccount" inverseEntity="MailBox" syncable="YES"/>
+    </entity>
+    <entity name="MailBox" representedClassName=".MailBox" syncable="YES">
+        <attribute name="create_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_favorite" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_hidden" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_read" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mail_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="mailAccount" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MailAccount" inverseName="mailbox" inverseEntity="MailAccount" syncable="YES"/>
+    </entity>
+    <entity name="XMLFileData" representedClassName=".XMLFileData" syncable="YES">
+        <attribute name="create_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="file" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="is_loadMail" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="update_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="beacon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Beacon" inverseName="xml_file" inverseEntity="Beacon" syncable="YES"/>
+        <relationship name="geofence" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Geofence" inverseName="xml_file" inverseEntity="Geofence" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Beacon" positionX="-495" positionY="809" width="128" height="208"/>
+        <element name="Geofence" positionX="-641" positionY="810" width="128" height="240"/>
+        <element name="MailAccount" positionX="-540" positionY="1197" width="128" height="283"/>
+        <element name="MailBox" positionX="-342" positionY="1118" width="128" height="193"/>
+        <element name="XMLFileData" positionX="-731" positionY="587" width="479" height="133"/>
+    </elements>
+</model>
